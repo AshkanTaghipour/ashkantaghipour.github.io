@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Ashkan Taghipour webpage"
+# title                    : "Ashkan Taghipour webpage"
 # description              : "This is the my persoanl webpage "
 repository               : "AshkaTaghipour/ashkantaghipour.github.io"
 google_scholar_stats_use_cdn : true
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Ashkan Taghipour"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/photo.jpeg"
   bio              : "Gen AI researcher"
   location         : "Australia"
   employer         :
