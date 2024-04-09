@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ashkan Taghipour webpage"
-description              : "This is the my persoanl webpage "
+# description              : "This is the my persoanl webpage "
 repository               : "AshkaTaghipour/ashkantaghipour.github.io"
 google_scholar_stats_use_cdn : true
 
