@@ -28,7 +28,7 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 -->
 
-# 📝 Publications 
+# 📝 Selected Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/paper_cover.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
