@@ -57,7 +57,7 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 # Software stacks, Libraries and Programming languages
 - Git
 - Pytorch
-- HuggingFace
+- [HuggingFace](https://huggingface.co/)
 - Diffusers
 - PEFT
 - Accelerator
