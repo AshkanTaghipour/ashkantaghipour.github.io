@@ -41,7 +41,6 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 <!--
 # 🎖 Honors and Awards
@@ -68,4 +67,5 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Dev experince
-- *2021.04 - 2023.04*, [MTN](https://mtn.com/), data scientist.
+- *2021.04 - 2023.04*, [MTN](https://mtn.com/),
+  data scientist.
