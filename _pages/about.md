@@ -54,7 +54,7 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 
 -->
 
-# Softwares \& Libraries
+# Softwares & Libraries
 - Git
 - Pytorch
 - [HuggingFace](https://huggingface.co/)
