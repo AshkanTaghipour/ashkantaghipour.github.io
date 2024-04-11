@@ -69,6 +69,9 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 
 -->
 
-# 💻 Dev experince
-- *2021.04 - 2023.04*, [MTN](https://mtn.com/),
-  data scientist.
+# 💻 Development Experience
+
+### Data Scientist at [MTN](https://mtn.com/)
+*April 2021 - April 2023*
+- Developed and deployed scalable models for credit scoring and "buy now, pay later" services using PySpark and Databricks.
+- Engineered robust data pipelines and machine learning workflows to analyze vast datasets, serving over 50 million users.
