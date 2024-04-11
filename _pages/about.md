@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # 👨‍💻 About Me
 
-I am an enthusiastic researcher focused on generative AI, working under the supervision of [Prof. Mohammed Bennamoun](https://scholar.google.com.au/citations?user=ylX5MEAAAAAJ&hl=en), [Prof. Farid Boussaid](https://scholar.google.com.au/citations?user=SacY05oAAAAJ&hl=en), and [Prof. Hamid Laga](https://scholar.google.com.au/citations?user=Qxmqp-0AAAAJ&hl=en). My research area primarily involves text-to-image and text-to-video generation. I am passionate about pushing the boundaries of AI-generated content (AIGC), especially for kids, to democratize storytelling for anyone, anywhere.
+I am an enthusiastic researcher focused on generative AI, working under the supervision of [Prof. Mohammed Bennamoun](https://scholar.google.com.au/citations?user=ylX5MEAAAAAJ&hl=en), [Prof. Farid Boussaid](https://scholar.google.com.au/citations?user=SacY05oAAAAJ&hl=en), and [Prof. Hamid Laga](https://scholar.google.com.au/citations?user=Qxmqp-0AAAAJ&hl=en). My research area primarily involves text-to-image and text-to-video generation. I am passionate about pushing the boundaries of AI-generated content (AIGC), especially for kids, to democratize visual storytelling for anyone, anywhere.
 
 
 
