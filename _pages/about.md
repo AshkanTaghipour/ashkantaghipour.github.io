@@ -62,9 +62,12 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 - [Accelerator](https://github.com/huggingface/accelerate)
 - [Transformers](https://github.com/huggingface/transformers)
 
+<!--
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+
+-->
 
 # 💻 Dev experince
 - *2021.04 - 2023.04*, [MTN](https://mtn.com/),
