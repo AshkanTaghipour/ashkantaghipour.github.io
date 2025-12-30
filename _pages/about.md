@@ -61,7 +61,7 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 <!-- ========================= -->
 <!-- 2) SVR-GS (submitted) -->
 <!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/svrgs.png' alt="SVR-GS thumbnail" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/svrgs.jpg' alt="SVR-GS thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SVR-GS: Spatially Variant Regularization for Probabilistic Masks in 3D Gaussian Splatting](#)
