@@ -15,6 +15,17 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<!-- Make all paper thumbnails visually consistent -->
+<style>
+  .paper-box-image img {
+    width: 100%;
+    height: 170px;          /* adjust if you want taller/shorter cards */
+    object-fit: cover;      /* crop to fill while keeping a clean look */
+    border-radius: 10px;    /* optional: matches modern card style */
+    display: block;
+  }
+</style>
+
 <span class='anchor' id='about-me'></span>
 # 👨‍💻 About Me
 
@@ -29,18 +40,68 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 -->
 
-# 📝 Selected Publications 
+# 📝 Selected Research & Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/paper_cover.jpg' alt="sym" width="100%"></div></div>
+
+<!-- ========================= -->
+<!-- 1) Text-to-Skeleton (submitted) -->
+<!-- ========================= -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/kangaroo.png' alt="Kangaroo thumbnail" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Text-to-Skeleton Cascades for Controllable Complex Human Motion Video Generation](#)
+
+**Ashkan Taghipour**, Morteza Ghahremani, Zinuo Li, Hamid Laga, Farid Boussaid, Mohammed Bennamoun
+
+[**Project Page**](https://ashkantaghipour.github.io/kangaroo/) &nbsp;|&nbsp; [**Short Video**](YOUR_YOUTUBE_LINK_HERE)
+</div>
+</div>
+
+
+<!-- ========================= -->
+<!-- 2) SVR-GS (submitted) -->
+<!-- ========================= -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/svrgs.png' alt="SVR-GS thumbnail" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SVR-GS: Spatially Variant Regularization for Probabilistic Masks in 3D Gaussian Splatting](#)
+
+**Ashkan Taghipour**, Morteza Ghahremani, Mohammed Bennamoun, Hamid Laga, Farid Boussaid
+
+[**Project Page**](PROJECT_PAGE_LINK_TBD) &nbsp;|&nbsp; [**Short Video**](YOUR_YOUTUBE_LINK_HERE)
+</div>
+</div>
+
+
+<!-- ========================= -->
+<!-- 3) BoxIt2BindIt (IEEE TMM) -->
+<!-- ========================= -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TMM</div><img src='images/boxittobindit.jpg' alt="BoxIt2BindIt thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Box It to Bind It: Unified Layout Control and Attribute Binding in T2I Diffusion Model](https://arxiv.org/pdf/2402.17910.pdf)
 
 **Ashkan Taghipour**, Morteza Ghahremani, Mohammed Bennamoun, Aref Miri Rekavandi, Hamid Laga, Farid Boussaid
 
-[**Code**](https://github.com/nextaistudio/BoxIt2BindIt) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code**](https://github.com/nextaistudio/BoxIt2BindIt) &nbsp;|&nbsp; [**Short Video**](YOUR_YOUTUBE_LINK_HERE) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 </div>
 </div>
+
+
+<!-- ========================= -->
+<!-- 4) Faster I2V (IEEE Access) -->
+<!-- ========================= -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Access</div><img src='images/fasteri2v.jpg' alt="Faster I2V thumbnail" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Faster image2video generation: A closer look at clip image embedding’s impact on spatio-temporal cross-attentions](#)
+
+**Ashkan Taghipour**, Morteza Ghahremani, Mohammed Bennamoun, Hamid Laga, Farid Boussaid
+
+[**Short Video**](YOUR_YOUTUBE_LINK_HERE)
+</div>
+</div>
+
 
 
 <!--
