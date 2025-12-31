@@ -78,7 +78,7 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
   </a>.
 </em>
 
-[**Project Page**](PROJECT_PAGE_LINK_TBD) &nbsp;|&nbsp; [**Short Video**](https://youtu.be/0HNOfUCQrHM)
+[**Project Page**](https://ashkantaghipour.github.io/svrgs/) &nbsp;|&nbsp; [**Short Video**](https://youtu.be/0HNOfUCQrHM)
 </div>
 </div>
 
