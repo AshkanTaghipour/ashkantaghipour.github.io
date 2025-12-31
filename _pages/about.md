@@ -66,7 +66,17 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 
 [SVR-GS: Spatially Variant Regularization for Probabilistic Masks in 3D Gaussian Splatting](https://arxiv.org/abs/2509.11116)
 
-**Ashkan Taghipour**, Morteza Ghahremani, Mohammed Bennamoun, Hamid Laga, Farid Boussaid
+**Ashkan Taghipour**, Vahid Naghshin, Benjamin Southwell, Farid Boussaid, Hamid Laga, Mohammed Bennamoun
+
+<em>
+  This work was conducted during my
+  <span style="color:#b45309; font-weight:700;">research internship</span>
+  at
+  <a href="https://www.dolby.com/" target="_blank" rel="noopener"
+     style="color:#1d4ed8; font-weight:800; text-decoration:underline;">
+    Dolby
+  </a>.
+</em>
 
 [**Project Page**](PROJECT_PAGE_LINK_TBD) &nbsp;|&nbsp; [**Short Video**](https://youtu.be/0HNOfUCQrHM)
 </div>
