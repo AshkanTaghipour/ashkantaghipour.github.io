@@ -46,7 +46,7 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 <!-- ========================= -->
 <!-- 1) Text-to-Skeleton (submitted) -->
 <!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/kangaroo.png' alt="Kangaroo thumbnail" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/kangaroo.jpg' alt="Kangaroo thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Text-to-Skeleton Cascades for Controllable Complex Human Motion Video Generation](#)
@@ -61,7 +61,7 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 <!-- ========================= -->
 <!-- 2) SVR-GS (submitted) -->
 <!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/svrgs.png' alt="SVR-GS thumbnail" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/svrgs.jpg' alt="SVR-GS thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SVR-GS: Spatially Variant Regularization for Probabilistic Masks in 3D Gaussian Splatting](https://arxiv.org/abs/2509.11116)
