@@ -46,7 +46,7 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 <!-- ========================= -->
 <!-- 1) Text-to-Skeleton (submitted) -->
 <!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/kangaroo.jpg' alt="Kangaroo thumbnail" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/kangaroo.png' alt="Kangaroo thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Text-to-Skeleton Cascades for Controllable Complex Human Motion Video Generation](#)
@@ -61,14 +61,14 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 <!-- ========================= -->
 <!-- 2) SVR-GS (submitted) -->
 <!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/svrgs.jpg' alt="SVR-GS thumbnail" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/svrgs.png' alt="SVR-GS thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SVR-GS: Spatially Variant Regularization for Probabilistic Masks in 3D Gaussian Splatting](#)
+[SVR-GS: Spatially Variant Regularization for Probabilistic Masks in 3D Gaussian Splatting](https://arxiv.org/abs/2509.11116)
 
 **Ashkan Taghipour**, Morteza Ghahremani, Mohammed Bennamoun, Hamid Laga, Farid Boussaid
 
-[**Project Page**](PROJECT_PAGE_LINK_TBD) &nbsp;|&nbsp; [**Short Video**](YOUR_YOUTUBE_LINK_HERE)
+[**Project Page**](PROJECT_PAGE_LINK_TBD) &nbsp;|&nbsp; [**Short Video**](https://youtu.be/0HNOfUCQrHM)
 </div>
 </div>
 
@@ -79,11 +79,11 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TMM</div><img src='images/boxittobindit.jpg' alt="BoxIt2BindIt thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Box It to Bind It: Unified Layout Control and Attribute Binding in T2I Diffusion Model](https://arxiv.org/pdf/2402.17910.pdf)
+[Box It to Bind It: Unified Layout Control and Attribute Binding in T2I Diffusion Model](https://ieeexplore.ieee.org/abstract/document/11153996)
 
 **Ashkan Taghipour**, Morteza Ghahremani, Mohammed Bennamoun, Aref Miri Rekavandi, Hamid Laga, Farid Boussaid
 
-[**Code**](https://github.com/nextaistudio/BoxIt2BindIt) &nbsp;|&nbsp; [**Short Video**](YOUR_YOUTUBE_LINK_HERE) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code**](https://github.com/nextaistudio/BoxIt2BindIt) &nbsp;|&nbsp; [**Short Video**](https://youtu.be/X_gxuGWOsss) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 </div>
 </div>
 
@@ -94,7 +94,7 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Access</div><img src='images/fasteri2v.jpg' alt="Faster I2V thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Faster image2video generation: A closer look at clip image embedding’s impact on spatio-temporal cross-attentions](#)
+[Faster image2video generation: A closer look at clip image embedding’s impact on spatio-temporal cross-attentions](https://ieeexplore.ieee.org/abstract/document/11114950)
 
 **Ashkan Taghipour**, Morteza Ghahremani, Mohammed Bennamoun, Hamid Laga, Farid Boussaid
 
