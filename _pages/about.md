@@ -106,9 +106,9 @@ I am an enthusiastic researcher focused on generative AI, working under the supe
 
 [Faster image2video generation: A closer look at clip image embedding’s impact on spatio-temporal cross-attentions](https://ieeexplore.ieee.org/abstract/document/11114950)
 
-**Ashkan Taghipour**, Morteza Ghahremani, Mohammed Bennamoun, Hamid Laga, Farid Boussaid
+**Ashkan Taghipour**, Morteza Ghahremani, Aref Miri Rekavandi, Z Li, Mohammed Bennamoun, Hamid Laga, Farid Boussaid
 
-[**Short Video**](YOUR_YOUTUBE_LINK_HERE)
+[**Short Video**](https://youtu.be/eSty6-B2RbU)
 </div>
 </div>
 
