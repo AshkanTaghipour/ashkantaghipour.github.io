@@ -146,7 +146,7 @@ I specialize in diffusion models (DDPMs, Flow Matching) for image and video gene
 <!-- ========================= -->
 <!-- 5) MineWatchAI (Data Science Project) -->
 <!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Data Science</div><img src='images/500x300.png' alt="MineWatchAI thumbnail" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Data Science</div><img src='images/minewatchai.jpg' alt="MineWatchAI thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MineWatchAI — Mining Rehabilitation Monitoring](https://huggingface.co/spaces/AshkanTaghipour/MineWatchAI)
@@ -161,7 +161,7 @@ End-to-end data science application for monitoring vegetation rehabilitation at 
 <!-- ========================= -->
 <!-- 6) WealthPathAU (Data Science Project) -->
 <!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Data Science</div><img src='images/500x300.png' alt="WealthPathAU thumbnail" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Data Science</div><img src='images/wealthpathau.jpg' alt="WealthPathAU thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [WealthPathAU — Investment Portfolio Simulator](https://huggingface.co/spaces/AshkanTaghipour/WealthPathAU)
