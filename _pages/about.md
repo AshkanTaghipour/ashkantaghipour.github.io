@@ -15,14 +15,49 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<!-- Make all paper thumbnails visually consistent -->
+<!-- Custom styles for consistent UI -->
 <style>
+  /* Paper thumbnail styling */
   .paper-box-image img {
     width: 100%;
-    height: 170px;          /* adjust if you want taller/shorter cards */
-    object-fit: cover;      /* crop to fill while keeping a clean look */
-    border-radius: 10px;    /* optional: matches modern card style */
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
     display: block;
+  }
+
+  /* Section divider styling */
+  .section-divider {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #e5e7eb, transparent);
+    margin: 2.5rem 0 2rem 0;
+  }
+
+  /* Experience card styling */
+  .experience-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #f3f4f6;
+  }
+
+  .experience-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .experience-item h3 {
+    margin-bottom: 0.25rem;
+  }
+
+  .experience-item em {
+    color: #6b7280;
+    font-size: 0.9rem;
+  }
+
+  .experience-item ul {
+    margin-top: 0.75rem;
   }
 </style>
 
@@ -34,41 +69,9 @@ My expertise covers end-to-end ML pipelines: from data extraction, feature engin
 
 I specialize in diffusion models (DDPMs, Flow Matching) for image and video generation, with hands-on experience in multi-billion-parameter DiT architectures (Wan-Video, CogVideoX) and UNet-based systems (Stable Diffusion, Stable Video Diffusion). My technical expertise includes multi-GPU distributed training, custom CUDA kernels, 3D Gaussian Splatting, and vision-language models (Qwen-VL, LLaVA, SAM/SAM 2). I have published first-author papers in IEEE TMM and IEEE Access, demonstrating strong communication skills and the ability to translate complex technical concepts for diverse stakeholders.
 
-
-# Experience
-
-### Data Scientist / ML Engineer at [Novarc Technologies](https://www.novarctech.com/)
-*Apr 2024 - Sep 2025 (Part-Time, Remote) — Vancouver, Canada*
-- Designed and deployed AI/ML models for industrial video analytics, improving operational throughput by 130% (15 to 35+ FPS) and reducing prediction errors by 20%.
-- Developed predictive analytics pipelines for quality control and anomaly detection in manufacturing processes, enabling proactive maintenance and reducing downtime.
-- Engineered synthetic data generation frameworks that reduced real-data labelling costs by 60–75%, improving model robustness for industrial robotics applications.
-- Applied experimental design and A/B testing methodologies to optimise model performance, achieving 4–8% accuracy improvements on challenging segmentation tasks.
-- Collaborated with cross-functional teams (engineering, operations, product) to translate business requirements into technical specifications for data science projects.
-
-### Research Intern — Advanced Technology Group at [Dolby Laboratories](https://www.dolby.com/)
-*May 2025 - Sep 2025 — Sydney, Australia*
-- Developed a Gaussian pruning framework for 3D Gaussian Splatting achieving 5.6× compression while maintaining visual quality for AR/VR rendering ([SVR-GS Paper](https://ashkantaghipour.github.io/svrgs/)).
-- Implemented high-performance computing solutions using custom CUDA kernels, reducing GPU memory footprint by 82% and enabling real-time novel view synthesis on consumer hardware.
-- Communicated research findings through presentations and technical documentation to stakeholders across technical and business teams.
-
-### AI Researcher (Ph.D. Candidate) at [University of Western Australia](https://www.uwa.edu.au/)
-*Apr 2023 - Present — Perth, Australia*
-- Published 8 peer-reviewed papers in top-tier journals (IEEE TMM, IEEE Access), demonstrating expertise in statistical analysis, experimental design, and applied analytical modelling.
-- Developed and deployed computer vision and NLP models including natural language processing (traditional and LLM-based), image classification, segmentation, and predictive analytics.
-- Managed 10TB+ datasets using distributed computing frameworks, building scalable data pipelines with comprehensive documentation and version control.
-- Mentored 4 students on research methodology and ML best practices, fostering a culture of collaboration and continuous learning.
-
-### Innovation Center Manager — ML & Data Science at [MTN Group](https://www.mtn.com/)
-*Apr 2021 - Apr 2023 — Tehran, Iran*
-- Built credit scoring and predictive analytics models using PySpark and Databricks, serving 50+ million users and reducing default rates by 10%.
-- Designed and maintained data pipelines for large-scale data processing, ensuring data integrity, accessibility, and compliance with security standards.
-- Created interactive dashboards and BI solutions serving 15+ stakeholders, reducing report generation time by 40% and enabling data-driven decision making.
-- Led continuous improvement initiatives integrating AI solutions into business operations, contributing to 5% revenue increase.
-- Managed and influenced stakeholders across technical, operational, and business teams, translating business needs into actionable data science projects.
-
+<hr class="section-divider">
 
 # Selected Research & Projects
-
 
 <!-- ========================= -->
 <!-- 1) Text-to-Skeleton (submitted) -->
@@ -141,41 +144,83 @@ I specialize in diffusion models (DDPMs, Flow Matching) for image and video gene
 
 
 <!-- ========================= -->
-<!-- Featured Data Science Projects -->
+<!-- 5) MineWatchAI (Data Science Project) -->
 <!-- ========================= -->
-### Featured Data Science Projects
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Data Science</div><img src='images/500x300.png' alt="MineWatchAI thumbnail" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-**[MineWatchAI](https://huggingface.co/spaces/AshkanTaghipour/MineWatchAI)** — Mining Rehabilitation Monitoring ([Live Demo](https://huggingface.co/spaces/AshkanTaghipour/MineWatchAI))
-- End-to-end data science application for monitoring vegetation rehabilitation at WA mining sites using Sentinel-2 imagery, vegetation indices (NDVI, SAVI, EVI), and automated compliance reporting.
+[MineWatchAI — Mining Rehabilitation Monitoring](https://huggingface.co/spaces/AshkanTaghipour/MineWatchAI)
 
-**[WealthPathAU](https://huggingface.co/spaces/AshkanTaghipour/WealthPathAU)** — Investment Portfolio Simulator ([Live Demo](https://wealthpath-au.streamlit.app/))
-- ASX investment simulator with Monte Carlo projections, historical backtesting, dividend forecasting, and risk-based portfolio allocation serving Australian retail investors.
+End-to-end data science application for monitoring vegetation rehabilitation at WA mining sites using Sentinel-2 imagery, vegetation indices (NDVI, SAVI, EVI), and automated compliance reporting.
+
+[**Live Demo**](https://huggingface.co/spaces/AshkanTaghipour/MineWatchAI)
+</div>
+</div>
 
 
-# Tech Stack
+<!-- ========================= -->
+<!-- 6) WealthPathAU (Data Science Project) -->
+<!-- ========================= -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Data Science</div><img src='images/500x300.png' alt="WealthPathAU thumbnail" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-**Statistics & Analytics:** Causal Inference, Experimental Design, A/B Testing, Statistical Modelling, Predictive Analytics
+[WealthPathAU — Investment Portfolio Simulator](https://huggingface.co/spaces/AshkanTaghipour/WealthPathAU)
 
-**Machine Learning:** Classification, Regression, Clustering, Anomaly Detection, Time Series Forecasting
+ASX investment simulator with Monte Carlo projections, historical backtesting, dividend forecasting, and risk-based portfolio allocation serving Australian retail investors.
 
-**Deep Learning:** Neural Networks, CNNs, Transformers, Transfer Learning, Model Optimisation
+[**Live Demo**](https://wealthpath-au.streamlit.app/)
+</div>
+</div>
 
-**Generative AI:** DDPM, Flow-Matching, Latent Diffusion, DiT (CogVideoX, Wan, PixArt), Stable Diffusion & Stable Video Diffusion, 3D Gaussian Splatting
+<hr class="section-divider">
 
-**Vision-Language Models:** Qwen-VL, LLaVA, SAM/SAM 2, DINOv3, DETR, CLIP
+# Experience
 
-**NLP:** Traditional NLP, LLM-based Solutions, Text Classification, Named Entity Recognition
+<div class="experience-item" markdown="1">
 
-**Languages:** Python (Expert), SQL (Expert), C++, CUDA
+### Data Scientist / ML Engineer at [Novarc Technologies](https://www.novarctech.com/)
+*Apr 2024 - Sep 2025 (Part-Time, Remote) — Vancouver, Canada*
 
-**ML Frameworks:** PyTorch, TensorFlow, Scikit-learn, Hugging Face (Diffusers, Transformers, PEFT, Accelerate)
+- Designed and deployed AI/ML models for industrial video analytics, improving operational throughput by 130% (15 to 35+ FPS) and reducing prediction errors by 20%.
+- Developed predictive analytics pipelines for quality control and anomaly detection in manufacturing processes, enabling proactive maintenance and reducing downtime.
+- Engineered synthetic data generation frameworks that reduced real-data labelling costs by 60–75%, improving model robustness for industrial robotics applications.
+- Applied experimental design and A/B testing methodologies to optimise model performance, achieving 4–8% accuracy improvements on challenging segmentation tasks.
+- Collaborated with cross-functional teams (engineering, operations, product) to translate business requirements into technical specifications for data science projects.
 
-**Data Platforms:** Databricks, Apache Spark, PySpark, Snowflake, Amazon S3
+</div>
 
-**Cloud & Infrastructure:** AWS (S3, SageMaker, EC2), Azure, GCP, Multi-GPU Distributed Training, Docker, HPC
+<div class="experience-item" markdown="1">
 
-**Data Engineering:** Data Pipelines, ETL, Pandas, NumPy, Data Quality, Data Governance
+### Research Intern — Advanced Technology Group at [Dolby Laboratories](https://www.dolby.com/)
+*May 2025 - Sep 2025 — Sydney, Australia*
 
-**Visualisation & BI:** Plotly, Matplotlib, Streamlit, Dashboard Development, Data Storytelling
+- Developed a Gaussian pruning framework for 3D Gaussian Splatting achieving 5.6× compression while maintaining visual quality for AR/VR rendering ([SVR-GS Paper](https://ashkantaghipour.github.io/svrgs/)).
+- Implemented high-performance computing solutions using custom CUDA kernels, reducing GPU memory footprint by 82% and enabling real-time novel view synthesis on consumer hardware.
+- Communicated research findings through presentations and technical documentation to stakeholders across technical and business teams.
 
-**MLOps & Tools:** Model Deployment, Monitoring, Version Control (Git), CI/CD, Docker, Linux, Agile, Technical Documentation
+</div>
+
+<div class="experience-item" markdown="1">
+
+### AI Researcher (Ph.D. Candidate) at [University of Western Australia](https://www.uwa.edu.au/)
+*Apr 2023 - Present — Perth, Australia*
+
+- Published 8 peer-reviewed papers in top-tier journals (IEEE TMM, IEEE Access), demonstrating expertise in statistical analysis, experimental design, and applied analytical modelling.
+- Developed and deployed computer vision and NLP models including natural language processing (traditional and LLM-based), image classification, segmentation, and predictive analytics.
+- Managed 10TB+ datasets using distributed computing frameworks, building scalable data pipelines with comprehensive documentation and version control.
+- Mentored 4 students on research methodology and ML best practices, fostering a culture of collaboration and continuous learning.
+
+</div>
+
+<div class="experience-item" markdown="1">
+
+### Innovation Center Manager — ML & Data Science at [MTN Group](https://www.mtn.com/)
+*Apr 2021 - Apr 2023 — Tehran, Iran*
+
+- Built credit scoring and predictive analytics models using PySpark and Databricks, serving 50+ million users and reducing default rates by 10%.
+- Designed and maintained data pipelines for large-scale data processing, ensuring data integrity, accessibility, and compliance with security standards.
+- Created interactive dashboards and BI solutions serving 15+ stakeholders, reducing report generation time by 40% and enabling data-driven decision making.
+- Led continuous improvement initiatives integrating AI solutions into business operations, contributing to 5% revenue increase.
+- Managed and influenced stakeholders across technical, operational, and business teams, translating business needs into actionable data science projects.
+
+</div>
