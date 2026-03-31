@@ -102,13 +102,13 @@ redirect_from:
 
 # About Me
 
-AI/ML Engineer and Researcher with a Ph.D. in Computer Science from the [University of Western Australia](https://www.uwa.edu.au/). I build and optimise multimodal AI systems spanning computer vision, NLP, and generative AI.
+I architect, train, and deploy multimodal AI systems spanning **2D/3D Generative AI**, **LLMs**, and **Agentic AI**. As an AI Scientist & Engineer with a Ph.D. in Computer Science from the [University of Western Australia](https://www.uwa.edu.au/), I bridge research and production — from fine-tuning the Qwen 3.5 model family on geological domain data to building real-time video analytics pipelines and environmental monitoring platforms.
 
 <ul class="about-highlights">
-  <li><strong>Computer Vision & Real-Time Inference</strong> — Object detection, video analytics, 3D reconstruction; 130% throughput gains, 82% GPU memory reduction via custom CUDA kernels</li>
-  <li><strong>NLP & LLMs</strong> — LLM fine-tuning (LoRA), RAG pipelines, document data extraction from 1000+ geological PDFs (<a href="https://huggingface.co/spaces/AshkanTaghipour/GeoLLM">Live Demo</a>)</li>
-  <li><strong>Scalable ML</strong> — Pipelines serving 50M+ users, 5.6× model compression, synthetic data generation reducing labelling costs by 60–75%</li>
-  <li><strong>Publications</strong> — 10+ peer-reviewed papers in ICRA, IEEE TMM, IEEE Access, Int. J. Remote Sensing</li>
+  <li><strong>Generative AI & Computer Vision</strong> — Diffusion models, 3D Gaussian Splatting, object detection, video analytics; 130% throughput gains, 5.6× model compression, 82% GPU memory reduction via custom CUDA kernels</li>
+  <li><strong>LLMs & Agentic AI</strong> — LLM fine-tuning (LoRA), RAG pipelines, Agentic AI systems, document data extraction from 1000+ geological PDFs</li>
+  <li><strong>Scalable ML</strong> — Production pipelines serving 50M+ users, synthetic data generation reducing labelling costs by 60–75%</li>
+  <li><strong>Research</strong> — 10+ peer-reviewed papers in ICRA, IEEE TMM, IEEE Access, Int. J. Remote Sensing. Industry experience at <a href="https://www.dolby.com/">Dolby Laboratories</a> and <a href="https://www.novarctech.com/">Novarc Technologies</a></li>
 </ul>
 
 <hr class="section-divider">
