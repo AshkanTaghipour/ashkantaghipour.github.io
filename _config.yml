@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Ashkan Taghipour"
   avatar           : "images/ashkan_taghipour.jpg"
-  bio              : "GenAI Scientist & Engineer"
-  location         : "Australia"
+  bio              : "AI/ML Engineer & Researcher"
+  location         : "Perth, Australia"
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=mgHdziAAAAAJ&hl=en"
-  email            : "ashkan.taghipour@research.uwa.edu.au"
+  email            : "t.ashkan89@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,13 +37,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "AshkanTaghipour"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : "ashkan-taghipour-2917a8a1"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="300" viewBox="0 0 500 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#2d6a4f"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="300" fill="url(#bg)" rx="10"/>
+  <!-- Mountain/geology icon -->
+  <polygon points="120,200 180,130 220,170 280,100 340,200" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="2"/>
+  <polygon points="200,200 260,140 300,170 380,90 420,200" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+  <!-- Text -->
+  <text x="250" y="135" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="bold" fill="white" letter-spacing="2">GeoLLM</text>
+  <text x="250" y="175" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="rgba(255,255,255,0.75)">Domain-Specific LLM Fine-Tuning</text>
+  <text x="250" y="205" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="rgba(255,255,255,0.5)">Qwen 3.5  |  LoRA  |  1000+ Geological Reports</text>
+</svg>

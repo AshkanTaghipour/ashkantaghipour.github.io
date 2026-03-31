@@ -15,47 +15,98 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<!-- Custom styles for consistent UI -->
+<!-- Custom styles -->
 <style>
-  /* Paper thumbnail styling */
+  /* ===== Section Headers ===== */
+  .page__content h1 {
+    font-size: 1.6em;
+    margin-top: 1.5em;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid #224b8d;
+  }
+
+  /* ===== About Highlights ===== */
+  .about-highlights {
+    list-style: none;
+    padding: 0;
+    margin: 1.2em 0;
+  }
+  .about-highlights li {
+    padding: 0.4em 0 0.4em 1.5em;
+    position: relative;
+    line-height: 1.6;
+  }
+  .about-highlights li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #224b8d;
+    font-weight: bold;
+  }
+
+  /* ===== Paper thumbnail styling ===== */
   .paper-box-image img {
     width: 100%;
-    height: 170px;
+    height: 190px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 8px;
     display: block;
   }
 
-  /* Section divider styling */
+  /* ===== Section divider ===== */
   .section-divider {
     border: none;
     height: 2px;
-    background: linear-gradient(to right, transparent, #e5e7eb, transparent);
+    background: linear-gradient(to right, #224b8d, #e5e7eb, transparent);
     margin: 2.5rem 0 2rem 0;
   }
 
-  /* Experience card styling */
+  /* ===== Skills Tags ===== */
+  .skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 1em 0;
+  }
+  .skill-tag {
+    display: inline-block;
+    padding: 0.3em 0.75em;
+    font-size: 0.85em;
+    border-radius: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .skill-tag.primary {
+    background: #224b8d;
+    color: #fff;
+  }
+  .skill-tag.secondary {
+    background: #e8eef6;
+    color: #224b8d;
+  }
+  .skill-tag.accent {
+    background: #2d6a4f;
+    color: #fff;
+  }
+
+  /* ===== Experience ===== */
   .experience-item {
     margin-bottom: 1.5rem;
     padding-bottom: 1.5rem;
     border-bottom: 1px solid #f3f4f6;
   }
-
   .experience-item:last-child {
     border-bottom: none;
     margin-bottom: 0;
     padding-bottom: 0;
   }
-
   .experience-item h3 {
     margin-bottom: 0.25rem;
   }
-
   .experience-item em {
     color: #6b7280;
     font-size: 0.9rem;
   }
-
   .experience-item ul {
     margin-top: 0.75rem;
   }
@@ -63,11 +114,42 @@ redirect_from:
 
 # About Me
 
-I architect, train, and deploy multimodal AI systems spanning 2D/3D Generative AI, LLMs, and computer vision. As a Research Software Engineer and Data Scientist with a Ph.D. in Computer Science, I bring 3+ years of experience delivering AI/ML solutions in heavy industrial operations, combining strong foundations in statistics, machine learning, and predictive analytics with proven business impact.
+AI/ML Engineer and Researcher with a Ph.D. in Computer Science from the [University of Western Australia](https://www.uwa.edu.au/). I build and optimise multimodal AI systems spanning computer vision, NLP, and generative AI.
 
-My expertise covers end-to-end ML pipelines: from data extraction, feature engineering, and statistical modelling to model development, deployment, and monitoring. I have delivered measurable improvements in operational efficiency (130% throughput gains, 20% error reduction) across industrial robotics, telecommunications, and AR/VR applications. Proficient in Python, SQL, PyTorch, and TensorFlow, with hands-on experience in Databricks, Apache Spark, and AWS for scalable data processing and ML operations.
+<ul class="about-highlights">
+  <li><strong>Computer Vision & Real-Time Inference</strong> — Object detection, video analytics, 3D reconstruction; 130% throughput gains, 82% GPU memory reduction via custom CUDA kernels</li>
+  <li><strong>NLP & LLMs</strong> — LLM fine-tuning (LoRA), RAG pipelines, document data extraction from 1000+ geological PDFs (<a href="https://huggingface.co/spaces/AshkanTaghipour/GeoLLM">Live Demo</a>)</li>
+  <li><strong>Scalable ML</strong> — Pipelines serving 50M+ users, 5.6× model compression, synthetic data generation reducing labelling costs by 60–75%</li>
+  <li><strong>Publications</strong> — 8 peer-reviewed papers in ICRA, IEEE TMM, IEEE Access, Int. J. Remote Sensing</li>
+</ul>
 
-I specialize in diffusion models (DDPMs, Flow Matching) for image and video generation, with hands-on experience in multi-billion-parameter DiT architectures (Wan-Video, CogVideoX) and UNet-based systems (Stable Diffusion, Stable Video Diffusion). My technical expertise includes multi-GPU distributed training, custom CUDA kernels, 3D Gaussian Splatting, and vision-language models (Qwen-VL, LLaVA, SAM/SAM 2). I have published first-author papers in IEEE TMM and IEEE Access, demonstrating strong communication skills and the ability to translate complex technical concepts for diverse stakeholders.
+<hr class="section-divider">
+
+# Technical Skills
+
+<div class="skills-section">
+  <span class="skill-tag primary">Python</span>
+  <span class="skill-tag primary">C++</span>
+  <span class="skill-tag primary">CUDA</span>
+  <span class="skill-tag primary">PyTorch</span>
+  <span class="skill-tag primary">SQL</span>
+  <span class="skill-tag secondary">Hugging Face</span>
+  <span class="skill-tag secondary">TensorFlow</span>
+  <span class="skill-tag secondary">Object Detection</span>
+  <span class="skill-tag secondary">Image Segmentation</span>
+  <span class="skill-tag secondary">Video Analytics</span>
+  <span class="skill-tag secondary">Diffusion Models</span>
+  <span class="skill-tag secondary">LLM Fine-Tuning (LoRA)</span>
+  <span class="skill-tag secondary">RAG Pipelines</span>
+  <span class="skill-tag secondary">NLP</span>
+  <span class="skill-tag accent">Docker</span>
+  <span class="skill-tag accent">GCP</span>
+  <span class="skill-tag accent">PySpark</span>
+  <span class="skill-tag accent">Databricks</span>
+  <span class="skill-tag accent">Git</span>
+  <span class="skill-tag accent">CI/CD</span>
+  <span class="skill-tag accent">Agentic AI</span>
+</div>
 
 <hr class="section-divider">
 
@@ -76,7 +158,7 @@ I specialize in diffusion models (DDPMs, Flow Matching) for image and video gene
 <!-- ========================= -->
 <!-- 1) Text-to-Skeleton (submitted) -->
 <!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/kangaroo.jpg' alt="Kangaroo thumbnail" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted</div><img src='images/kangaroo.jpg' alt="Kangaroo thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Text-to-Skeleton Cascades for Controllable Complex Human Motion Video Generation](#)
@@ -89,9 +171,9 @@ I specialize in diffusion models (DDPMs, Flow Matching) for image and video gene
 
 
 <!-- ========================= -->
-<!-- 2) SVR-GS (submitted) -->
+<!-- 2) SVR-GS (ICRA 2026) -->
 <!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">submitted</div><img src='images/svrgs.jpg' alt="SVR-GS thumbnail" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2026</div><img src='images/svrgs.jpg' alt="SVR-GS thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SVR-GS: Spatially Variant Regularization for Probabilistic Masks in 3D Gaussian Splatting](https://arxiv.org/abs/2509.11116)
@@ -108,7 +190,7 @@ I specialize in diffusion models (DDPMs, Flow Matching) for image and video gene
   </a>.
 </em>
 
-[**Project Page**](https://ashkantaghipour.github.io/svrgs/) &nbsp;|&nbsp; [**Short Video**](https://youtu.be/0HNOfUCQrHM)
+[**Project Page**](https://ashkantaghipour.github.io/svrgs/) &nbsp;|&nbsp; [**Code**](https://github.com/AshkanTaghipour/SVR-GS) &nbsp;|&nbsp; [**Short Video**](https://youtu.be/0HNOfUCQrHM)
 </div>
 </div>
 
@@ -144,14 +226,29 @@ I specialize in diffusion models (DDPMs, Flow Matching) for image and video gene
 
 
 <!-- ========================= -->
-<!-- 5) MineWatchAI (Data Science Project) -->
+<!-- 5) GeoLLM (LLM Fine-Tuning) -->
+<!-- ========================= -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">LLM Project</div><img src='images/geollm.svg' alt="GeoLLM thumbnail" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[GeoLLM — Domain-Specific LLM Fine-Tuning](https://github.com/AshkanTaghipour/GeoLLM-Qwen3.5-FineTune)
+
+End-to-end pipeline extracting structured QA datasets from 1000+ geological PDFs using OCR, then fine-tuning Qwen 3.5 models (0.8B–27B) with LoRA for domain-specific reasoning.
+
+[**Code**](https://github.com/AshkanTaghipour/GeoLLM-Qwen3.5-FineTune) &nbsp;|&nbsp; [**Live Demo**](https://huggingface.co/spaces/AshkanTaghipour/GeoLLM) &nbsp;|&nbsp; [**Dataset**](https://huggingface.co/datasets/AshkanTaghipour/mineral-exploration-geology-qa) &nbsp;|&nbsp; [**Models**](https://huggingface.co/AshkanTaghipour/models)
+</div>
+</div>
+
+
+<!-- ========================= -->
+<!-- 6) MineWatchAI -->
 <!-- ========================= -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Data Science</div><img src='images/minewatchai.jpg' alt="MineWatchAI thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MineWatchAI — Mining Rehabilitation Monitoring](https://huggingface.co/spaces/AshkanTaghipour/MineWatchAI)
 
-End-to-end data science application for monitoring vegetation rehabilitation at WA mining sites using Sentinel-2 imagery, vegetation indices (NDVI, SAVI, EVI), and automated compliance reporting.
+End-to-end application for monitoring vegetation rehabilitation at WA mining sites using Sentinel-2 imagery, vegetation indices (NDVI, SAVI, EVI), and automated compliance reporting.
 
 [**Live Demo**](https://huggingface.co/spaces/AshkanTaghipour/MineWatchAI)
 </div>
@@ -159,14 +256,14 @@ End-to-end data science application for monitoring vegetation rehabilitation at 
 
 
 <!-- ========================= -->
-<!-- 6) WealthPathAU (Data Science Project) -->
+<!-- 7) WealthPathAU -->
 <!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Data Science</div><img src='images/wealthpathau.jpg' alt="WealthPathAU thumbnail" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Fintech</div><img src='images/wealthpathau.jpg' alt="WealthPathAU thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[WealthPathAU — Investment Portfolio Simulator](https://huggingface.co/spaces/AshkanTaghipour/WealthPathAU)
+[WealthPathAU — Investment Portfolio Simulator](https://wealthpath-au.streamlit.app/)
 
-ASX investment simulator with Monte Carlo projections, historical backtesting, dividend forecasting, and risk-based portfolio allocation serving Australian retail investors.
+ASX investment simulator with Monte Carlo projections, historical backtesting, and risk-based portfolio allocation serving Australian retail investors.
 
 [**Live Demo**](https://wealthpath-au.streamlit.app/)
 </div>
@@ -178,49 +275,45 @@ ASX investment simulator with Monte Carlo projections, historical backtesting, d
 
 <div class="experience-item" markdown="1">
 
-### Data Scientist / ML Engineer at [Novarc Technologies](https://www.novarctech.com/)
-*Apr 2024 - Sep 2025 (Part-Time, Remote) — Vancouver, Canada*
+### AI/ML Engineer at [Novarc Technologies](https://www.novarctech.com/)
+*Apr 2024 – Sep 2025 (Part-Time, Remote) — Vancouver, Canada*
 
-- Designed and deployed AI/ML models for industrial video analytics, improving operational throughput by 130% (15 to 35+ FPS) and reducing prediction errors by 20%.
-- Developed predictive analytics pipelines for quality control and anomaly detection in manufacturing processes, enabling proactive maintenance and reducing downtime.
-- Engineered synthetic data generation frameworks that reduced real-data labelling costs by 60–75%, improving model robustness for industrial robotics applications.
-- Applied experimental design and A/B testing methodologies to optimise model performance, achieving 4–8% accuracy improvements on challenging segmentation tasks.
-- Collaborated with cross-functional teams (engineering, operations, product) to translate business requirements into technical specifications for data science projects.
+- Built deep learning pipelines for **real-time video analytics**, improving throughput by **130%** (15 to 35+ FPS)
+- Designed **synthetic data generation pipelines**, reducing labelling costs by **60–75%**
+- Applied **object detection** and **segmentation** with **4–8% accuracy gains** through edge-case analysis
+- Designed **multimodal conditioning frameworks** for complex video understanding tasks
 
 </div>
 
 <div class="experience-item" markdown="1">
 
 ### Research Intern — Advanced Technology Group at [Dolby Laboratories](https://www.dolby.com/)
-*May 2025 - Sep 2025 — Sydney, Australia*
+*May 2025 – Sep 2025 — Sydney, Australia*
 
-- Developed a Gaussian pruning framework for 3D Gaussian Splatting achieving 5.6× compression while maintaining visual quality for AR/VR rendering ([SVR-GS Paper](https://ashkantaghipour.github.io/svrgs/)).
-- Implemented high-performance computing solutions using custom CUDA kernels, reducing GPU memory footprint by 82% and enabling real-time novel view synthesis on consumer hardware.
-- Communicated research findings through presentations and technical documentation to stakeholders across technical and business teams.
+- Developed **3D scene reconstruction** pipeline using Gaussian Splatting ([SVR-GS](https://ashkantaghipour.github.io/svrgs/), accepted **ICRA 2026**)
+- Achieved **5.6× model compression** and **82% GPU memory reduction** via custom **CUDA kernels**
+- Optimised models for **real-time inference** on consumer hardware
 
 </div>
 
 <div class="experience-item" markdown="1">
 
-### AI Researcher (Ph.D. Candidate) at [University of Western Australia](https://www.uwa.edu.au/)
-*Apr 2023 - Present — Perth, Australia*
+### Computer Vision Researcher (Ph.D.) at [University of Western Australia](https://www.uwa.edu.au/)
+*Apr 2023 – Mar 2026 — Perth, Australia*
 
-- Published 8 peer-reviewed papers in top-tier journals (IEEE TMM, IEEE Access), demonstrating expertise in statistical analysis, experimental design, and applied analytical modelling.
-- Developed and deployed computer vision and NLP models including natural language processing (traditional and LLM-based), image classification, segmentation, and predictive analytics.
-- Managed 10TB+ datasets using distributed computing frameworks, building scalable data pipelines with comprehensive documentation and version control.
-- Mentored 4 students on research methodology and ML best practices, fostering a culture of collaboration and continuous learning.
+- Published **8 peer-reviewed papers** in ICRA, IEEE TMM, IEEE Access, and Int. J. Remote Sensing
+- Trained **multi-billion parameter** video models on **10TB+ datasets** using distributed multi-GPU computing
+- Built annotation, evaluation, and data quality pipelines for deep learning at scale
 
 </div>
 
 <div class="experience-item" markdown="1">
 
 ### Innovation Center Manager — ML & Data Science at [MTN Group](https://www.mtn.com/)
-*Apr 2021 - Apr 2023 — Tehran, Iran*
+*Apr 2021 – Apr 2023 — Tehran, Iran*
 
-- Built credit scoring and predictive analytics models using PySpark and Databricks, serving 50+ million users and reducing default rates by 10%.
-- Designed and maintained data pipelines for large-scale data processing, ensuring data integrity, accessibility, and compliance with security standards.
-- Created interactive dashboards and BI solutions serving 15+ stakeholders, reducing report generation time by 40% and enabling data-driven decision making.
-- Led continuous improvement initiatives integrating AI solutions into business operations, contributing to 5% revenue increase.
-- Managed and influenced stakeholders across technical, operational, and business teams, translating business needs into actionable data science projects.
+- Built **predictive analytics** models using **PySpark** and **Databricks**, serving **50+ million users**
+- Designed dashboards and reports for **15+ stakeholders**, reducing report generation time by **40%**
+- Led end-to-end ML projects from concept through model training and handoff to engineering teams
 
 </div>
