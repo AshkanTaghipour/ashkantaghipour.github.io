@@ -108,7 +108,7 @@ AI/ML Engineer and Researcher with a Ph.D. in Computer Science from the [Univers
   <li><strong>Computer Vision & Real-Time Inference</strong> — Object detection, video analytics, 3D reconstruction; 130% throughput gains, 82% GPU memory reduction via custom CUDA kernels</li>
   <li><strong>NLP & LLMs</strong> — LLM fine-tuning (LoRA), RAG pipelines, document data extraction from 1000+ geological PDFs (<a href="https://huggingface.co/spaces/AshkanTaghipour/GeoLLM">Live Demo</a>)</li>
   <li><strong>Scalable ML</strong> — Pipelines serving 50M+ users, 5.6× model compression, synthetic data generation reducing labelling costs by 60–75%</li>
-  <li><strong>Publications</strong> — 8 peer-reviewed papers in ICRA, IEEE TMM, IEEE Access, Int. J. Remote Sensing</li>
+  <li><strong>Publications</strong> — 10+ peer-reviewed papers in ICRA, IEEE TMM, IEEE Access, Int. J. Remote Sensing</li>
 </ul>
 
 <hr class="section-divider">
@@ -253,7 +253,7 @@ ASX investment simulator with Monte Carlo projections, historical backtesting, a
 ### Computer Vision Researcher (Ph.D.) at [University of Western Australia](https://www.uwa.edu.au/)
 *Apr 2023 – Mar 2026 — Perth, Australia*
 
-- Published **8 peer-reviewed papers** in ICRA, IEEE TMM, IEEE Access, and Int. J. Remote Sensing
+- Published **10+ peer-reviewed papers** in ICRA, IEEE TMM, IEEE Access, and Int. J. Remote Sensing
 - Trained **multi-billion parameter** video models on **10TB+ datasets** using distributed multi-GPU computing
 - Built annotation, evaluation, and data quality pipelines for deep learning at scale
 
