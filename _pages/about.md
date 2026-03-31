@@ -15,11 +15,22 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<!-- Google Fonts: Inter -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 <!-- Custom styles -->
 <style>
+  /* ===== Global Font ===== */
+  body, .page__content, .author__name, .author__bio, .author__urls {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
   /* ===== Section Headers ===== */
   .page__content h1 {
     font-size: 1.6em;
+    font-weight: 700;
     margin-top: 1.5em;
     padding-bottom: 0.4em;
     border-bottom: 2px solid #224b8d;
@@ -65,32 +76,63 @@ redirect_from:
     margin: 2.5rem 0 2rem 0;
   }
 
-  /* ===== Skills Tags ===== */
-  .skills-section {
+  /* ===== Skills Grid ===== */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.2em;
+    margin: 1em 0;
+  }
+  .skills-category {
+    background: #f8f9fb;
+    border-radius: 10px;
+    padding: 1em 1.2em;
+    border-left: 3px solid #224b8d;
+  }
+  .skills-category.green {
+    border-left-color: #2d6a4f;
+  }
+  .skills-category.purple {
+    border-left-color: #6b21a8;
+  }
+  .skills-category h4 {
+    margin: 0 0 0.6em 0;
+    font-size: 0.85em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #374151;
+  }
+  .skills-category .tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5em;
-    margin: 1em 0;
+    gap: 0.4em;
   }
   .skill-tag {
     display: inline-block;
-    padding: 0.3em 0.75em;
-    font-size: 0.85em;
-    border-radius: 20px;
-    font-weight: 600;
+    padding: 0.25em 0.65em;
+    font-size: 0.8em;
+    border-radius: 6px;
+    font-weight: 500;
     line-height: 1.4;
+    background: #fff;
+    color: #374151;
+    border: 1px solid #e5e7eb;
   }
-  .skill-tag.primary {
+  .skills-category .skill-tag.highlight {
     background: #224b8d;
     color: #fff;
+    border-color: #224b8d;
   }
-  .skill-tag.secondary {
-    background: #e8eef6;
-    color: #224b8d;
-  }
-  .skill-tag.accent {
+  .skills-category.green .skill-tag.highlight {
     background: #2d6a4f;
     color: #fff;
+    border-color: #2d6a4f;
+  }
+  .skills-category.purple .skill-tag.highlight {
+    background: #6b21a8;
+    color: #fff;
+    border-color: #6b21a8;
   }
 
   /* ===== Experience ===== */
@@ -131,28 +173,52 @@ AI/ML Engineer and Researcher with a Ph.D. in Computer Science from the [Univers
 
 # Technical Skills
 
-<div class="skills-section">
-  <span class="skill-tag primary">Python</span>
-  <span class="skill-tag primary">C++</span>
-  <span class="skill-tag primary">CUDA</span>
-  <span class="skill-tag primary">PyTorch</span>
-  <span class="skill-tag primary">SQL</span>
-  <span class="skill-tag secondary">Hugging Face</span>
-  <span class="skill-tag secondary">TensorFlow</span>
-  <span class="skill-tag secondary">Object Detection</span>
-  <span class="skill-tag secondary">Image Segmentation</span>
-  <span class="skill-tag secondary">Video Analytics</span>
-  <span class="skill-tag secondary">Diffusion Models</span>
-  <span class="skill-tag secondary">LLM Fine-Tuning (LoRA)</span>
-  <span class="skill-tag secondary">RAG Pipelines</span>
-  <span class="skill-tag secondary">NLP</span>
-  <span class="skill-tag accent">Docker</span>
-  <span class="skill-tag accent">GCP</span>
-  <span class="skill-tag accent">PySpark</span>
-  <span class="skill-tag accent">Databricks</span>
-  <span class="skill-tag accent">Git</span>
-  <span class="skill-tag accent">CI/CD</span>
-  <span class="skill-tag accent">Agentic AI</span>
+<div class="skills-grid">
+  <div class="skills-category">
+    <h4>Languages & Frameworks</h4>
+    <div class="tags">
+      <span class="skill-tag highlight">Python</span>
+      <span class="skill-tag highlight">C++</span>
+      <span class="skill-tag highlight">CUDA</span>
+      <span class="skill-tag">SQL</span>
+      <span class="skill-tag highlight">PyTorch</span>
+      <span class="skill-tag">TensorFlow</span>
+      <span class="skill-tag">Hugging Face</span>
+    </div>
+  </div>
+  <div class="skills-category">
+    <h4>Computer Vision</h4>
+    <div class="tags">
+      <span class="skill-tag highlight">Object Detection</span>
+      <span class="skill-tag highlight">Image Segmentation</span>
+      <span class="skill-tag highlight">Video Analytics</span>
+      <span class="skill-tag">Diffusion Models</span>
+      <span class="skill-tag">3D Gaussian Splatting</span>
+      <span class="skill-tag">Real-Time Inference</span>
+    </div>
+  </div>
+  <div class="skills-category green">
+    <h4>NLP & LLMs</h4>
+    <div class="tags">
+      <span class="skill-tag highlight">LLM Fine-Tuning (LoRA)</span>
+      <span class="skill-tag highlight">RAG Pipelines</span>
+      <span class="skill-tag">NLP</span>
+      <span class="skill-tag">Document AI</span>
+      <span class="skill-tag">Agentic AI</span>
+    </div>
+  </div>
+  <div class="skills-category purple">
+    <h4>Infrastructure & MLOps</h4>
+    <div class="tags">
+      <span class="skill-tag highlight">Docker</span>
+      <span class="skill-tag highlight">GCP</span>
+      <span class="skill-tag">PySpark</span>
+      <span class="skill-tag">Databricks</span>
+      <span class="skill-tag">Git</span>
+      <span class="skill-tag">CI/CD</span>
+      <span class="skill-tag">Multi-GPU Training</span>
+    </div>
+  </div>
 </div>
 
 <hr class="section-divider">
