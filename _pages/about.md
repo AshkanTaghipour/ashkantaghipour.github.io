@@ -76,64 +76,6 @@ redirect_from:
     margin: 2.5rem 0 2rem 0;
   }
 
-  /* ===== Skills Grid ===== */
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.2em;
-    margin: 1em 0;
-  }
-  .skills-category {
-    background: #f8f9fb;
-    border-radius: 10px;
-    padding: 1em 1.2em;
-    border-left: 3px solid #224b8d;
-  }
-  .skills-category.green {
-    border-left-color: #2d6a4f;
-  }
-  .skills-category.purple {
-    border-left-color: #6b21a8;
-  }
-  .skills-category h4 {
-    margin: 0 0 0.6em 0;
-    font-size: 0.85em;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #374151;
-  }
-  .skills-category .tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4em;
-  }
-  .skill-tag {
-    display: inline-block;
-    padding: 0.25em 0.65em;
-    font-size: 0.8em;
-    border-radius: 6px;
-    font-weight: 500;
-    line-height: 1.4;
-    background: #fff;
-    color: #374151;
-    border: 1px solid #e5e7eb;
-  }
-  .skills-category .skill-tag.highlight {
-    background: #224b8d;
-    color: #fff;
-    border-color: #224b8d;
-  }
-  .skills-category.green .skill-tag.highlight {
-    background: #2d6a4f;
-    color: #fff;
-    border-color: #2d6a4f;
-  }
-  .skills-category.purple .skill-tag.highlight {
-    background: #6b21a8;
-    color: #fff;
-    border-color: #6b21a8;
-  }
 
   /* ===== Experience ===== */
   .experience-item {
@@ -168,58 +110,6 @@ AI/ML Engineer and Researcher with a Ph.D. in Computer Science from the [Univers
   <li><strong>Scalable ML</strong> — Pipelines serving 50M+ users, 5.6× model compression, synthetic data generation reducing labelling costs by 60–75%</li>
   <li><strong>Publications</strong> — 8 peer-reviewed papers in ICRA, IEEE TMM, IEEE Access, Int. J. Remote Sensing</li>
 </ul>
-
-<hr class="section-divider">
-
-# Technical Skills
-
-<div class="skills-grid">
-  <div class="skills-category">
-    <h4>Languages & Frameworks</h4>
-    <div class="tags">
-      <span class="skill-tag highlight">Python</span>
-      <span class="skill-tag highlight">C++</span>
-      <span class="skill-tag highlight">CUDA</span>
-      <span class="skill-tag">SQL</span>
-      <span class="skill-tag highlight">PyTorch</span>
-      <span class="skill-tag">TensorFlow</span>
-      <span class="skill-tag">Hugging Face</span>
-    </div>
-  </div>
-  <div class="skills-category">
-    <h4>Computer Vision</h4>
-    <div class="tags">
-      <span class="skill-tag highlight">Object Detection</span>
-      <span class="skill-tag highlight">Image Segmentation</span>
-      <span class="skill-tag highlight">Video Analytics</span>
-      <span class="skill-tag">Diffusion Models</span>
-      <span class="skill-tag">3D Gaussian Splatting</span>
-      <span class="skill-tag">Real-Time Inference</span>
-    </div>
-  </div>
-  <div class="skills-category green">
-    <h4>NLP & LLMs</h4>
-    <div class="tags">
-      <span class="skill-tag highlight">LLM Fine-Tuning (LoRA)</span>
-      <span class="skill-tag highlight">RAG Pipelines</span>
-      <span class="skill-tag">NLP</span>
-      <span class="skill-tag">Document AI</span>
-      <span class="skill-tag">Agentic AI</span>
-    </div>
-  </div>
-  <div class="skills-category purple">
-    <h4>Infrastructure & MLOps</h4>
-    <div class="tags">
-      <span class="skill-tag highlight">Docker</span>
-      <span class="skill-tag highlight">GCP</span>
-      <span class="skill-tag">PySpark</span>
-      <span class="skill-tag">Databricks</span>
-      <span class="skill-tag">Git</span>
-      <span class="skill-tag">CI/CD</span>
-      <span class="skill-tag">Multi-GPU Training</span>
-    </div>
-  </div>
-</div>
 
 <hr class="section-divider">
 
