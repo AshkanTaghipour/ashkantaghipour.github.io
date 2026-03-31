@@ -47,10 +47,14 @@ redirect_from:
   /* ===== Paper thumbnail styling ===== */
   .paper-box-image img {
     width: 100%;
-    height: 190px;
+    height: 200px;
     object-fit: cover;
+    object-position: center;
     border-radius: 8px;
     display: block;
+  }
+  .paper-box-image {
+    min-height: 200px;
   }
 
   /* ===== Section divider ===== */
@@ -228,7 +232,7 @@ AI/ML Engineer and Researcher with a Ph.D. in Computer Science from the [Univers
 <!-- ========================= -->
 <!-- 5) GeoLLM (LLM Fine-Tuning) -->
 <!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">LLM Project</div><img src='images/geollm.svg' alt="GeoLLM thumbnail" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">LLM Project</div><img src='images/geollm.jpg' alt="GeoLLM thumbnail" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [GeoLLM — Domain-Specific LLM Fine-Tuning](https://github.com/AshkanTaghipour/GeoLLM-Qwen3.5-FineTune)
