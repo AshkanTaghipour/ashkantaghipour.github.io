@@ -140,15 +140,7 @@ AI/ML Engineer and Researcher with a Ph.D. in Computer Science from the [Univers
 
 **Ashkan Taghipour**, Vahid Naghshin, Benjamin Southwell, Farid Boussaid, Hamid Laga, Mohammed Bennamoun
 
-<em>
-  This work was conducted during my
-  <span style="color:#b45309; font-weight:700;">research internship</span>
-  at
-  <a href="https://www.dolby.com/" target="_blank" rel="noopener"
-     style="color:#1d4ed8; font-weight:800;">
-    Dolby
-  </a>.
-</em>
+<em>This work was conducted during my <span style="color:#b45309; font-weight:700;">research internship</span> at <a href="https://www.dolby.com/" target="_blank" rel="noopener" style="color:#1d4ed8; font-weight:800;">Dolby</a>.</em>
 
 [**Project Page**](https://ashkantaghipour.github.io/svrgs/) &nbsp;|&nbsp; [**Code**](https://github.com/AshkanTaghipour/SVR-GS) &nbsp;|&nbsp; [**Short Video**](https://youtu.be/0HNOfUCQrHM)
 </div>
