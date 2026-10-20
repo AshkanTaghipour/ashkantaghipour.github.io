@@ -1,271 +1,186 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
-author_profile: true
+title: "Ashkan Taghipour"
+layout: home
 redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<!-- Google Fonts: Inter -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-<!-- Custom styles -->
-<style>
-  /* ===== Global Font ===== */
-  body, .page__content, .author__name, .author__bio, .author__urls {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  }
-
-  /* ===== Section Headers ===== */
-  .page__content h1 {
-    font-size: 1.6em;
-    font-weight: 700;
-    margin-top: 1.5em;
-    padding-bottom: 0.4em;
-    border-bottom: 2px solid #224b8d;
-  }
-
-  /* ===== About Highlights ===== */
-  .about-highlights {
-    list-style: none;
-    padding: 0;
-    margin: 1.2em 0;
-  }
-  .about-highlights li {
-    padding: 0.4em 0 0.4em 1.5em;
-    position: relative;
-    line-height: 1.6;
-  }
-  .about-highlights li::before {
-    content: "▸";
-    position: absolute;
-    left: 0;
-    color: #224b8d;
-    font-weight: bold;
-  }
-
-  /* ===== Paper thumbnail styling ===== */
-  .paper-box-image img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 8px;
-    display: block;
-  }
-  .paper-box-image {
-    min-height: 200px;
-  }
-
-  /* ===== Section divider ===== */
-  .section-divider {
-    border: none;
-    height: 2px;
-    background: linear-gradient(to right, #224b8d, #e5e7eb, transparent);
-    margin: 2.5rem 0 2rem 0;
-  }
-
-
-  /* ===== Experience ===== */
-  .experience-item {
-    margin-bottom: 1.5rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid #f3f4f6;
-  }
-  .experience-item:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-  .experience-item h3 {
-    margin-bottom: 0.25rem;
-  }
-  .experience-item em {
-    color: #6b7280;
-    font-size: 0.9rem;
-  }
-  .experience-item ul {
-    margin-top: 0.75rem;
-  }
-</style>
-
-# About Me
-
-I architect, train, and deploy multimodal AI systems spanning **2D/3D Generative AI**, **LLMs**, and **Agentic AI**. As an AI Scientist & Engineer with a Ph.D. in Computer Science from the [University of Western Australia](https://www.uwa.edu.au/), I bridge research and production — from fine-tuning the Qwen 3.5 model family on geological domain data to building real-time video analytics pipelines and environmental monitoring platforms.
-
-<ul class="about-highlights">
-  <li><strong>Generative AI & Computer Vision</strong> — Diffusion models, 3D Gaussian Splatting, object detection, video analytics; 130% throughput gains, 5.6× model compression, 82% GPU memory reduction via custom CUDA kernels</li>
-  <li><strong>LLMs & Agentic AI</strong> — LLM fine-tuning (LoRA), RAG pipelines, Agentic AI systems, document data extraction from 1000+ geological PDFs</li>
-  <li><strong>Scalable ML</strong> — Production pipelines serving 50M+ users, synthetic data generation reducing labelling costs by 60–75%</li>
-  <li><strong>Research</strong> — 10+ peer-reviewed papers in ICRA, IEEE TMM, IEEE Access, Int. J. Remote Sensing. Industry experience at <a href="https://www.dolby.com/">Dolby Laboratories</a> and <a href="https://www.novarctech.com/">Novarc Technologies</a></li>
-</ul>
-
-<hr class="section-divider">
-
-# Selected Research & Projects
-
-<!-- ========================= -->
-<!-- 1) Text-to-Skeleton (submitted) -->
-<!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted</div><img src='images/kangaroo.jpg' alt="Kangaroo thumbnail" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Text-to-Skeleton Cascades for Controllable Complex Human Motion Video Generation](#)
-
-**Ashkan Taghipour**, Morteza Ghahremani, Zinuo Li, Hamid Laga, Farid Boussaid, Mohammed Bennamoun
-
-[**Project Page**](https://ashkantaghipour.github.io/kangaroo/)
-</div>
-</div>
-
-
-<!-- ========================= -->
-<!-- 2) SVR-GS (ICRA 2026) -->
-<!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2026</div><img src='images/svrgs.jpg' alt="SVR-GS thumbnail" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[SVR-GS: Spatially Variant Regularization for Probabilistic Masks in 3D Gaussian Splatting](https://arxiv.org/abs/2509.11116)
-
-**Ashkan Taghipour**, Vahid Naghshin, Benjamin Southwell, Farid Boussaid, Hamid Laga, Mohammed Bennamoun
-
-<em>This work was conducted during my <span style="color:#b45309; font-weight:700;">research internship</span> at <a href="https://www.dolby.com/" target="_blank" rel="noopener" style="color:#1d4ed8; font-weight:800;">Dolby</a>.</em>
-
-[**Project Page**](https://ashkantaghipour.github.io/svrgs/) &nbsp;|&nbsp; [**Code**](https://github.com/AshkanTaghipour/SVR-GS) &nbsp;|&nbsp; [**Short Video**](https://youtu.be/0HNOfUCQrHM)
-</div>
-</div>
-
-
-<!-- ========================= -->
-<!-- 3) BoxIt2BindIt (IEEE TMM) -->
-<!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TMM</div><img src='images/boxittobindit.jpg' alt="BoxIt2BindIt thumbnail" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Box It to Bind It: Unified Layout Control and Attribute Binding in T2I Diffusion Model](https://ieeexplore.ieee.org/abstract/document/11153996)
-
-**Ashkan Taghipour**, Morteza Ghahremani, Mohammed Bennamoun, Aref Miri Rekavandi, Hamid Laga, Farid Boussaid
-
-[**Code**](https://github.com/nextaistudio/BoxIt2BindIt) &nbsp;|&nbsp; [**Short Video**](https://youtu.be/X_gxuGWOsss) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-</div>
-</div>
-
-
-<!-- ========================= -->
-<!-- 4) Faster I2V (IEEE Access) -->
-<!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Access</div><img src='images/fasteri2v.jpg' alt="Faster I2V thumbnail" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Faster image2video generation: A closer look at clip image embedding's impact on spatio-temporal cross-attentions](https://ieeexplore.ieee.org/abstract/document/11114950)
-
-**Ashkan Taghipour**, Morteza Ghahremani, Aref Miri Rekavandi, Z Li, Mohammed Bennamoun, Hamid Laga, Farid Boussaid
-
-[**Short Video**](https://youtu.be/eSty6-B2RbU)
-</div>
-</div>
-
-
-<!-- ========================= -->
-<!-- 5) GeoLLM (LLM Fine-Tuning) -->
-<!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">LLM Project</div><img src='images/geollm.jpg' alt="GeoLLM thumbnail" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[GeoLLM — Domain-Specific LLM Fine-Tuning](https://github.com/AshkanTaghipour/GeoLLM-Qwen3.5-FineTune)
-
-End-to-end pipeline extracting structured QA datasets from 1000+ geological PDFs using OCR, then fine-tuning Qwen 3.5 models (0.8B–27B) with LoRA for domain-specific reasoning.
-
-[**Code**](https://github.com/AshkanTaghipour/GeoLLM-Qwen3.5-FineTune) &nbsp;|&nbsp; [**Live Demo**](https://huggingface.co/spaces/AshkanTaghipour/GeoLLM) &nbsp;|&nbsp; [**Dataset**](https://huggingface.co/datasets/AshkanTaghipour/mineral-exploration-geology-qa) &nbsp;|&nbsp; [**Models**](https://huggingface.co/AshkanTaghipour/models)
-</div>
-</div>
-
-
-<!-- ========================= -->
-<!-- 6) MineWatchAI -->
-<!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Data Science</div><img src='images/minewatchai.jpg' alt="MineWatchAI thumbnail" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[MineWatchAI — Mining Rehabilitation Monitoring](https://huggingface.co/spaces/AshkanTaghipour/MineWatchAI)
-
-End-to-end application for monitoring vegetation rehabilitation at WA mining sites using Sentinel-2 imagery, vegetation indices (NDVI, SAVI, EVI), and automated compliance reporting.
-
-[**Live Demo**](https://huggingface.co/spaces/AshkanTaghipour/MineWatchAI)
-</div>
-</div>
-
-
-<!-- ========================= -->
-<!-- 7) WealthPathAU -->
-<!-- ========================= -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Fintech</div><img src='images/wealthpathau.jpg' alt="WealthPathAU thumbnail" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[WealthPathAU — Investment Portfolio Simulator](https://wealthpath-au.streamlit.app/)
-
-ASX investment simulator with Monte Carlo projections, historical backtesting, and risk-based portfolio allocation serving Australian retail investors.
-
-[**Live Demo**](https://wealthpath-au.streamlit.app/)
-</div>
-</div>
-
-<hr class="section-divider">
-
-# Experience
-
-<div class="experience-item" markdown="1">
-
-### Postdoctoral Researcher at [Harry Perkins Institute of Medical Research](https://www.perkins.org.au/)
-*Jul 2026 – Present (Full-time, On-site) — Perth, Australia*
-
-- Deploy AI models using **GPU-accelerated** and **high-performance computing**
-- Develop **multimodal AI pipelines** for complex **medical imaging** data
-- Develop **agentic AI workflows** for clinical research and data analysis
-- Collaborate across AI, clinical, and biomedical research teams
-
-</div>
-
-<div class="experience-item" markdown="1">
-
-### AI Engineer at [Novarc Technologies](https://www.novarctech.com/)
-*Jul 2024 – Oct 2025 (Contract, Remote) — Greater Toronto Area, Canada*
-
-- Developed a specialised **image and video generation** pipeline for robotic welding, integrating **motion-aware conditioning** and **temporal diffusion** modules
-- Built custom data processing and training workflows for welding footage, generating structured datasets with **supervised fine-tuning**
-- Optimised inference for real-world deployment, achieving high-fidelity frame consistency and realistic illumination for industrial welding scenes
-
-</div>
-
-<div class="experience-item" markdown="1">
-
-### Advanced Technology Group (ATG) Intern at [Dolby Laboratories](https://www.dolby.com/)
-*May 2025 – Sep 2025 (Full-time, On-site) — Sydney, Australia*
-
-- **3D Gaussian Splatting** for novel view synthesis ([SVR-GS](https://ashkantaghipour.github.io/svrgs/), accepted **ICRA 2026**)
-- Real-time 3D graphics and rendering with **CUDA**
-- Applications in **AR/VR** and immersive media
-
-</div>
-
-<hr class="section-divider">
-
-# Education
-
-<div class="experience-item" markdown="1">
-
-### Doctor of Philosophy (Ph.D.), Computer Science — [The University of Western Australia](https://www.uwa.edu.au/)
-*Apr 2023 – Oct 2026 — Perth, Australia*
-
-</div>
+<section class="section" id="about">
+  <h2>About</h2>
+  <div class="about">
+    <div class="about__text">
+      <p>I am a Postdoctoral Researcher at the <a href="https://www.perkins.org.au/" target="_blank" rel="noopener">Harry Perkins Institute of Medical Research</a> in Perth, where I develop multimodal and agentic AI for medical imaging and clinical research.</p>
+      <p>I completed my Ph.D. in Computer Science at <a href="https://www.uwa.edu.au/" target="_blank" rel="noopener">The University of Western Australia</a>, working on generative models for images, video and 3D scenes. Along the way I worked on 3D Gaussian Splatting with the Advanced Technology Group at <a href="https://www.dolby.com/" target="_blank" rel="noopener">Dolby Laboratories</a>, and on video generation for robotic welding at <a href="https://www.novarctech.com/" target="_blank" rel="noopener">Novarc Technologies</a>.</p>
+      <ul class="tags">
+        <li>Multimodal understanding</li>
+        <li>Image &amp; video generation</li>
+        <li>3D generation &amp; understanding</li>
+        <li>LLMs</li>
+        <li>Agentic systems</li>
+        <li>Medical imaging</li>
+      </ul>
+    </div>
+    <img class="about__photo" src="{{ '/images/ashkan_taghipour.jpg' | relative_url }}" alt="Portrait of Ashkan Taghipour">
+  </div>
+</section>
+
+<section class="section" id="news">
+  <h2>News</h2>
+  <ul class="news">
+    <li><time>Jul 2026</time><span>Joined the Harry Perkins Institute of Medical Research as a Postdoctoral Researcher.</span></li>
+    <li><time>Jun 2026</time><span>Presented <a href="https://ashkantaghipour.github.io/svrgs/" target="_blank" rel="noopener">SVR-GS</a> as an oral presentation at ICRA 2026 in Vienna.</span></li>
+    <li><time>Feb 2026</time><span>SVR-GS, from my internship at Dolby Laboratories, accepted to ICRA 2026.</span></li>
+  </ul>
+</section>
+
+<section class="section" id="publications">
+  <h2>Publications</h2>
+
+  <article class="pub">
+    <img class="pub__thumb" src="{{ '/images/kangaroo.jpg' | relative_url }}" alt="" loading="lazy">
+    <div>
+      <h3 class="pub__title"><a href="https://ashkantaghipour.github.io/kangaroo/" target="_blank" rel="noopener">Text-to-Skeleton Cascades for Controllable Complex Human Motion Video Generation</a></h3>
+      <p class="pub__authors"><strong>Ashkan Taghipour</strong>, Morteza Ghahremani, Zinuo Li, Hamid Laga, Farid Boussaid, Mohammed Bennamoun</p>
+      <div class="pub__meta">
+        <span class="venue">Under review</span>
+        <a href="https://ashkantaghipour.github.io/kangaroo/" target="_blank" rel="noopener">Project page</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="pub">
+    <img class="pub__thumb" src="{{ '/images/svrgs.jpg' | relative_url }}" alt="" loading="lazy">
+    <div>
+      <h3 class="pub__title"><a href="https://arxiv.org/abs/2509.11116" target="_blank" rel="noopener">SVR-GS: Spatially Variant Regularization for Probabilistic Masks in 3D Gaussian Splatting</a></h3>
+      <p class="pub__authors"><strong>Ashkan Taghipour</strong>, Vahid Naghshin, Benjamin Southwell, Farid Boussaid, Hamid Laga, Mohammed Bennamoun</p>
+      <div class="pub__meta">
+        <span class="venue">ICRA 2026 · Oral</span>
+        <a href="https://ashkantaghipour.github.io/svrgs/" target="_blank" rel="noopener">Project page</a>
+        <a href="https://github.com/AshkanTaghipour/SVR-GS" target="_blank" rel="noopener">Code</a>
+        <a href="https://youtu.be/0HNOfUCQrHM" target="_blank" rel="noopener">Video</a>
+        <span class="note">Work done at Dolby Laboratories</span>
+      </div>
+    </div>
+  </article>
+
+  <article class="pub">
+    <img class="pub__thumb" src="{{ '/images/boxittobindit.jpg' | relative_url }}" alt="" loading="lazy">
+    <div>
+      <h3 class="pub__title"><a href="https://ieeexplore.ieee.org/abstract/document/11153996" target="_blank" rel="noopener">Box It to Bind It: Unified Layout Control and Attribute Binding in T2I Diffusion Models</a></h3>
+      <p class="pub__authors"><strong>Ashkan Taghipour</strong>, Morteza Ghahremani, Mohammed Bennamoun, Aref Miri Rekavandi, Hamid Laga, Farid Boussaid</p>
+      <div class="pub__meta">
+        <span class="venue">IEEE TMM</span>
+        <a href="https://github.com/nextaistudio/BoxIt2BindIt" target="_blank" rel="noopener">Code</a>
+        <a href="https://youtu.be/X_gxuGWOsss" target="_blank" rel="noopener">Video</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="pub">
+    <img class="pub__thumb" src="{{ '/images/fasteri2v.jpg' | relative_url }}" alt="" loading="lazy">
+    <div>
+      <h3 class="pub__title"><a href="https://ieeexplore.ieee.org/abstract/document/11114950" target="_blank" rel="noopener">Faster Image2Video Generation: A Closer Look at CLIP Image Embedding's Impact on Spatio-Temporal Cross-Attentions</a></h3>
+      <p class="pub__authors"><strong>Ashkan Taghipour</strong>, Morteza Ghahremani, Aref Miri Rekavandi, Zinuo Li, Mohammed Bennamoun, Hamid Laga, Farid Boussaid</p>
+      <div class="pub__meta">
+        <span class="venue">IEEE Access</span>
+        <a href="https://youtu.be/eSty6-B2RbU" target="_blank" rel="noopener">Video</a>
+      </div>
+    </div>
+  </article>
+
+  <p class="subhead">Selected projects</p>
+
+  <article class="pub">
+    <img class="pub__thumb" src="{{ '/images/geollm.jpg' | relative_url }}" alt="" loading="lazy">
+    <div>
+      <h3 class="pub__title"><a href="https://github.com/AshkanTaghipour/GeoLLM-Qwen3.5-FineTune" target="_blank" rel="noopener">GeoLLM — Domain-Specific LLM Fine-Tuning</a></h3>
+      <p class="pub__desc">Extracts structured QA datasets from 1,000+ geological PDFs with OCR, then fine-tunes Qwen 3.5 models (0.8B–27B) with LoRA for domain-specific reasoning.</p>
+      <div class="pub__meta">
+        <a href="https://github.com/AshkanTaghipour/GeoLLM-Qwen3.5-FineTune" target="_blank" rel="noopener">Code</a>
+        <a href="https://huggingface.co/spaces/AshkanTaghipour/GeoLLM" target="_blank" rel="noopener">Demo</a>
+        <a href="https://huggingface.co/datasets/AshkanTaghipour/mineral-exploration-geology-qa" target="_blank" rel="noopener">Dataset</a>
+        <a href="https://huggingface.co/AshkanTaghipour/models" target="_blank" rel="noopener">Models</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="pub">
+    <img class="pub__thumb" src="{{ '/images/minewatchai.jpg' | relative_url }}" alt="" loading="lazy">
+    <div>
+      <h3 class="pub__title"><a href="https://huggingface.co/spaces/AshkanTaghipour/MineWatchAI" target="_blank" rel="noopener">MineWatchAI — Mining Rehabilitation Monitoring</a></h3>
+      <p class="pub__desc">Monitors vegetation rehabilitation at WA mining sites using Sentinel-2 imagery, vegetation indices (NDVI, SAVI, EVI) and automated compliance reporting.</p>
+      <div class="pub__meta">
+        <a href="https://huggingface.co/spaces/AshkanTaghipour/MineWatchAI" target="_blank" rel="noopener">Demo</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="pub">
+    <img class="pub__thumb" src="{{ '/images/wealthpathau.jpg' | relative_url }}" alt="" loading="lazy">
+    <div>
+      <h3 class="pub__title"><a href="https://wealthpath-au.streamlit.app/" target="_blank" rel="noopener">WealthPathAU — Investment Portfolio Simulator</a></h3>
+      <p class="pub__desc">ASX investment simulator with Monte Carlo projections, historical backtesting and risk-based portfolio allocation.</p>
+      <div class="pub__meta">
+        <a href="https://wealthpath-au.streamlit.app/" target="_blank" rel="noopener">Demo</a>
+      </div>
+    </div>
+  </article>
+</section>
+
+<section class="section" id="experience">
+  <h2>Experience</h2>
+
+  <div class="role">
+    <div class="role__date">Jul 2026 – Present</div>
+    <div>
+      <h3 class="role__title">Postdoctoral Researcher</h3>
+      <p class="role__org"><a href="https://www.perkins.org.au/" target="_blank" rel="noopener">Harry Perkins Institute of Medical Research</a> · Full-time · Perth, Australia</p>
+      <ul>
+        <li>Deploy AI models using GPU-accelerated and high-performance computing</li>
+        <li>Develop multimodal AI pipelines for complex medical imaging data</li>
+        <li>Develop agentic AI workflows for clinical research and data analysis</li>
+        <li>Collaborate across AI, clinical and biomedical research teams</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="role">
+    <div class="role__date">Jul 2024 – Oct 2025</div>
+    <div>
+      <h3 class="role__title">AI Engineer</h3>
+      <p class="role__org"><a href="https://www.novarctech.com/" target="_blank" rel="noopener">Novarc Technologies</a> · Contract · Remote (Greater Toronto Area, Canada)</p>
+      <ul>
+        <li>Developed an image and video generation pipeline for robotic welding, integrating motion-aware conditioning and temporal diffusion modules</li>
+        <li>Built data processing and training workflows for welding footage, generating structured datasets for supervised fine-tuning</li>
+        <li>Optimised inference for real-world deployment, achieving high-fidelity frame consistency and realistic illumination in industrial welding scenes</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="role">
+    <div class="role__date">May 2025 – Sep 2025</div>
+    <div>
+      <h3 class="role__title">Advanced Technology Group (ATG) Intern</h3>
+      <p class="role__org"><a href="https://www.dolby.com/" target="_blank" rel="noopener">Dolby Laboratories</a> · Full-time · Sydney, Australia</p>
+      <ul>
+        <li>3D Gaussian Splatting for novel view synthesis (<a href="https://ashkantaghipour.github.io/svrgs/" target="_blank" rel="noopener">SVR-GS</a>, ICRA 2026)</li>
+        <li>Real-time 3D graphics and rendering with CUDA</li>
+        <li>Applications in AR/VR and immersive media</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="education">
+  <h2>Education</h2>
+
+  <div class="role">
+    <div class="role__date">Apr 2023 – Oct 2026</div>
+    <div>
+      <h3 class="role__title">Ph.D. in Computer Science</h3>
+      <p class="role__org"><a href="https://www.uwa.edu.au/" target="_blank" rel="noopener">The University of Western Australia</a> · Perth, Australia</p>
+    </div>
+  </div>
+</section>
