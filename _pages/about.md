@@ -227,45 +227,45 @@ ASX investment simulator with Monte Carlo projections, historical backtesting, a
 
 <div class="experience-item" markdown="1">
 
-### AI/ML Engineer at [Novarc Technologies](https://www.novarctech.com/)
-*Apr 2024 – Sep 2025 (Part-Time, Remote) — Vancouver, Canada*
+### Postdoctoral Researcher at [Harry Perkins Institute of Medical Research](https://www.perkins.org.au/)
+*Jul 2026 – Present (Full-time, On-site) — Perth, Australia*
 
-- Built deep learning pipelines for **real-time video analytics**, improving throughput by **130%** (15 to 35+ FPS)
-- Designed **synthetic data generation pipelines**, reducing labelling costs by **60–75%**
-- Applied **object detection** and **segmentation** with **4–8% accuracy gains** through edge-case analysis
-- Designed **multimodal conditioning frameworks** for complex video understanding tasks
-
-</div>
-
-<div class="experience-item" markdown="1">
-
-### Research Intern — Advanced Technology Group at [Dolby Laboratories](https://www.dolby.com/)
-*May 2025 – Sep 2025 — Sydney, Australia*
-
-- Developed **3D scene reconstruction** pipeline using Gaussian Splatting ([SVR-GS](https://ashkantaghipour.github.io/svrgs/), accepted **ICRA 2026**)
-- Achieved **5.6× model compression** and **82% GPU memory reduction** via custom **CUDA kernels**
-- Optimised models for **real-time inference** on consumer hardware
+- Deploy AI models using **GPU-accelerated** and **high-performance computing**
+- Develop **multimodal AI pipelines** for complex **medical imaging** data
+- Develop **agentic AI workflows** for clinical research and data analysis
+- Collaborate across AI, clinical, and biomedical research teams
 
 </div>
 
 <div class="experience-item" markdown="1">
 
-### Computer Vision Researcher (Ph.D.) at [University of Western Australia](https://www.uwa.edu.au/)
-*Apr 2023 – Mar 2026 — Perth, Australia*
+### AI Engineer at [Novarc Technologies](https://www.novarctech.com/)
+*Jul 2024 – Oct 2025 (Contract, Remote) — Greater Toronto Area, Canada*
 
-- Published **10+ peer-reviewed papers** in ICRA, IEEE TMM, IEEE Access, and Int. J. Remote Sensing
-- Trained **multi-billion parameter** video models on **10TB+ datasets** using distributed multi-GPU computing
-- Built annotation, evaluation, and data quality pipelines for deep learning at scale
+- Developed a specialised **image and video generation** pipeline for robotic welding, integrating **motion-aware conditioning** and **temporal diffusion** modules
+- Built custom data processing and training workflows for welding footage, generating structured datasets with **supervised fine-tuning**
+- Optimised inference for real-world deployment, achieving high-fidelity frame consistency and realistic illumination for industrial welding scenes
 
 </div>
 
 <div class="experience-item" markdown="1">
 
-### Innovation Center Manager — ML & Data Science at [MTN Group](https://www.mtn.com/)
-*Apr 2021 – Apr 2023 — Tehran, Iran*
+### Advanced Technology Group (ATG) Intern at [Dolby Laboratories](https://www.dolby.com/)
+*May 2025 – Sep 2025 (Full-time, On-site) — Sydney, Australia*
 
-- Built **predictive analytics** models using **PySpark** and **Databricks**, serving **50+ million users**
-- Designed dashboards and reports for **15+ stakeholders**, reducing report generation time by **40%**
-- Led end-to-end ML projects from concept through model training and handoff to engineering teams
+- **3D Gaussian Splatting** for novel view synthesis ([SVR-GS](https://ashkantaghipour.github.io/svrgs/), accepted **ICRA 2026**)
+- Real-time 3D graphics and rendering with **CUDA**
+- Applications in **AR/VR** and immersive media
+
+</div>
+
+<hr class="section-divider">
+
+# Education
+
+<div class="experience-item" markdown="1">
+
+### Doctor of Philosophy (Ph.D.), Computer Science — [The University of Western Australia](https://www.uwa.edu.au/)
+*Apr 2023 – Oct 2026 — Perth, Australia*
 
 </div>

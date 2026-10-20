@@ -23,9 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Ashkan Taghipour"
   avatar           : "images/ashkan_taghipour.jpg"
-  bio              : "AI Scientist & Engineer"
+  bio              : "Postdoctoral Researcher, Harry Perkins Institute of Medical Research"
   location         : "Perth, Australia"
-  employer         :
+  employer         : "Harry Perkins Institute of Medical Research"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=mgHdziAAAAAJ&hl=en"
   email            : "t.ashkan89@gmail.com"
